@@ -1,0 +1,14 @@
+{
+  "name": "schemalite",
+  "version": "0.1.7",
+  "description": "Filter objects.",
+  "main": "index.js",
+  "keywords": [
+    "schema",
+    "object",
+    "test",
+    "parse"
+  ],
+  "author": "d3tu",
+  "license": "MIT"
+}
