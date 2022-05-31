@@ -1,8 +1,10 @@
 {
   "name": "schemalite",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Filter objects.",
-  "main": "index.js",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "keywords": [
     "schema",
     "object",

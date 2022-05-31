@@ -1,4 +1,3 @@
-```ts
 export declare type SchemaO = {
     [x: string | number]: SchemaT;
 };
@@ -13,15 +12,3 @@ export declare class Schema {
     private _type;
 }
 export default Schema;
-```
-```js
-import Schema from 'schemalite'
-const User = new Schema({ username: String })
-const Group = new Schema({ name: String, users: [User] })
-const user = { username: 'user0' }
-const group = { name: 'group0', users: [{ username: 'user0' }, { username: 'user1' }] }
-User.test(user) // true
-Group.test(group) // true
-User.parse(user) // parsed schema
-Group.parse(group) // parsed schema
-```

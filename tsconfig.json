@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "declaration": true,
+    "esModuleInterop": false,
+    "forceConsistentCasingInFileNames": false,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
