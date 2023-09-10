@@ -85,9 +85,9 @@ export class Schema {
                   if (val in key) {
                     found = true;
                     if ((schema as SchemaT[])[idx] instanceof Schema) {
-                      (parsed as any[]).push(((schema as SchemaT[])[idx] as Schema).parse(val));
+                      (parsed as any[]).push(((schema as SchemaT[])[idx] as Schema).parse(key));
                     } else {
-                      (parsed as any[]).push(this._parse(val, _schema));
+                      (parsed as any[]).push(this._parse(key, _schema));
                     }
                     break;
                   }
